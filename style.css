@@ -1,0 +1,88 @@
+
+.background{
+    background-image:url('https://tse1.mm.bing.net/th?id=OIP.KiykyeMrocD-XIod0MP-5gHaEJ&pid=Api&P=0&h=180');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position:absolute;
+    top: 0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity: 0.3;
+    z-index: -2;
+}
+div{
+    text-align: center;
+    align-items: center;
+    z-index:1;
+}
+.but{
+    text-align: center;
+    color: azure;
+    font-weight: 300;
+    background-color: orange;
+    height: 40px;
+    width: 90px;
+    border-radius: 50px;
+}
+.but:hover{
+    transform: scale(1.2);
+}
+body{
+    margin:12px;
+    padding: 200px;
+}
+.home{
+    border: solid black;
+    border-radius: 150px;
+    box-shadow: 5px 5px 15px rgba(0, 0.6, 0, 0.6);
+    padding:60px;
+    display:block;
+}
+.question-active{
+    display: none;
+    padding:40px;
+    margin:20px;
+}
+.question{
+    display: none;
+    padding:40px;
+    margin:20px;
+}
+.next{
+    border-radius: 20px;
+    background-color: black;
+    color: azure;
+    margin-left: 200px;
+}
+.next:hover{
+    transform: scale(1.5);
+}
+.prev{
+    border-radius: 20px;
+    background-color: black;
+    color: azure;
+    margin-right: 200px;
+    
+}
+.prev:hover{
+    transform: scale(1.5);
+}
+.button{
+    display:none;
+}
+.result{
+    display:none;
+    padding:10px;
+    margin:-10px;
+}
+.res{
+    font-size: 150px;
+    font-family: sans-serif;
+    margin-top: 100px;
+    color:rgb(72, 11, 11)
+}
+.ans{
+    color: blue;
+}
